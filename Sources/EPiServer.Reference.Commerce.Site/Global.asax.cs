@@ -7,7 +7,7 @@ using EPiServer.Reference.Commerce.Site.Infrastructure.Attributes;
 
 namespace EPiServer.Reference.Commerce.Site
 {
-    public class Global : EPiServer.Global
+    public class EPiServerApplication : EPiServer.Global
     {
         protected override void RegisterRoutes(RouteCollection routes)
         {
